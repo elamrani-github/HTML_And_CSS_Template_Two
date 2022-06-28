@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+:root {
+    --main-color : #00c7fc;
+}
+
+.home .container {
+    background-color: black;
+    /* width: 100%; */
+    height: 100vh;
+}
+.home .header {
+    width: 60%;
+    margin: 0px auto;
+    color: white;
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.home .header .logo {
+    grid-column: 1 / 3;
+}
+.home .header .menu {
+    grid-column: 4/11;
+    text-align: center;
+} 
+.home .header .search {
+    grid-column: 12/13;
+    
+} 
+.home .header .menu ul li {
+    list-style: none;
+    display: inline;
+}
+.services {
+    background-color: white;
+}
